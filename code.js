@@ -1,32 +1,54 @@
-let nomeDoHeroi = "Steve"
-let quantidadeDeXP = "1000"
+torrar ()
+
+let tempoCorreto = "1 minuto" 
+function torrar (){
+    console.log ("seu pao esta torrando");
+     
+}
+
+for (i = 1;i < 2; i++ ){
+    console.log ("espere um momento") ;   
+}
+let k = 0 
+while (k < 2){
+    console.log ("...");
+    k++
+}
+let p = 1
+while (p < 2){
+    console.log ("     ");
+    p++
+}
+injetado ()
+    function injetado(){
+ console.log ("seu pao foi injetado pegue-o");
+    }
+    let personagem = "daniel "
+console.log (personagem + "pegou o pão e ele viu que: ");
+
+   
+     switch  (tempoCorreto){
+        case "1 minuto":
+        console.log ("o seu pão nao queimou");
+        console.log ("ele tera gosto bom");
+        break 
+        default: 
+        console.log ("seu pao queimou")
+
+    }
+    comendo()
+    function comendo (){
+        console.log (personagem + "comeu o pao")
+    } 
+    
+let VidaDoPersonagem = "1"
+ for (v = 0; v < 6; v++){
+    VidaDoPersonagem +=
+    console.log ("VIDAS :" + v)
+ }
+ console.log (personagem + "tem: " + v + "vidas")
+
+
  
-if (quantidadeDeXP === 1000){
-    console.log (nomeDoHeroi + " esta no nivel de prata")
-}
-else if (quantidadeDeXP <= 1000){
-    console.log (nomeDoHeroi + " ta com pouco XP ")
-}
 
-else if (quantidadeDeXP <= 2000){
-    console.log (nomeDoHeroi + " esta no nivel bronze")
-} 
-
-else if (quantidadeDeXP <= 5000){
-    console.log (nomeDoHeroi + " esta no nivel prata")
-}
-else if (quantidadeDeXP <= 7000){
-    console.log (nomeDoHeroi + " esta no nivel ouro")
-}
-else if (quantidadeDeXP <= 8000){
-    console.log (nomeDoHeroi + " esta no nivel platina")
-}
-else if (quantidadeDeXP <= 9000 ){
-    console.log (nomeDoHeroi + " esta no nivel ascendente ")
-}
-else if (quantidadeDeXP <= 10000){
-    console.log (nomeDoHeroi + " esta no nivel imortal ")
-}
-else if (quantidadeDeXP <= 10001){
-    console.log (nomeDoHeroi + " esta nivel radiante ")
-} 
+    
